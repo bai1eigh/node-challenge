@@ -1,6 +1,6 @@
 # Professional README Generator Starter Code
 
-# <project-title>
+# Project Title
 
 ## Description
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
@@ -9,22 +9,22 @@
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [title](#project-title)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Testing](#tests)
-- [contributions](#contributions)
-- [information](#information)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Testing](#Testing)
+- [contributions](#Contributions)
+- [information](#Information)
 
 
-## insallation
+## Insallation
 
-## usage
+## Usage
 
-## information
+## Information
 
-## contributions
+## Contributions
 
-## tests
+## Testing
 
-## license
+## License
