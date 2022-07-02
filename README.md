@@ -8,13 +8,13 @@
 ## Table of Contents 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [title](#project-title)
+- [Title](#Project)
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#License)
 - [Testing](#Testing)
-- [contributions](#Contributions)
-- [information](#Information)
+- [Contributions](#Contributions)
+- [Information](#Information)
 
 
 ## Insallation
