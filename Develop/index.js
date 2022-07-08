@@ -11,7 +11,7 @@ const questions = [
     //Question for title
 {name: 'title',
 type:'input',
-message:'What is your the title of your project?',
+message:'What is the title of your project?',
 default:'Project Title',
 },
 
@@ -38,8 +38,8 @@ message:'Who are the contributers of this application?',
     choices:  
     ['GNU AGPLv3', 
     'GNU GPLv3',
-     'GNU LGPLv3', 
-     'Mozilla Public License 2.0',
+    'GNU LGPLv3', 
+    'Mozilla Public License 2.0',
     'Apache License 2.0', 
     'MIT License', 
     'Boost Software License 1.0',
@@ -115,22 +115,19 @@ message:'Who are the contributers of this application?',
 
 ];
 
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName,generateMarkdown(data), function (err) {
-        if (err) {
-            return console.log(err)
-        }
-    });
+  return fs.writeFileSync(fileName, data) ;
 }
 
 // TODO: Create a function to initialize app
 function init() {
 
     inquirer.prompt(questions).then((data) => {
-        console.log(JSON.stringify(data, null, " "));
-        data.getLicense = getLicense(data.license);
-       writeToFile('./README.md',data);
+    //    console.log(JSON.stringify(data, null, " "));
+       // data.getLicense = getLicense(data.license);
+       writeToFile('./README.md', generateMarkdown(data));
     });
 }
 
