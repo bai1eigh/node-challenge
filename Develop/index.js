@@ -16,7 +16,7 @@ default:'Project Title',
 },
 
   //Question for description
-{name: 'Description',
+{name: 'description',
 type:'input',
 message:'Please enter a description for your application.',
 default:'Description',
@@ -32,7 +32,7 @@ message:'Who are the contributers of this application?',
   //Question for license
 {
 
-    name: 'Project License',
+    name: 'License',
     type:'list',
     message: 'Would you like to display the license of the project?',
     choices:  
@@ -57,7 +57,6 @@ message:'Who are the contributers of this application?',
     
 },
 
-
   //Question for usage
 
 {
@@ -70,7 +69,7 @@ message:'Who are the contributers of this application?',
 
   //Question for installation
 {
-    name: 'Insatllation',
+    name: 'installation',
     type: 'input',
     message: 'How can someone install this project?',
     
@@ -78,7 +77,7 @@ message:'Who are the contributers of this application?',
 
   //Question for information
 {
-    name: 'Information',
+    name: 'information',
     type: 'input',
     message: 'Would you like to enter some information about how to use your project?',
     
@@ -86,7 +85,7 @@ message:'Who are the contributers of this application?',
 
   //Question for testing
 {
-    name: 'Testing',
+    name: 'testing',
     type: 'input',
     message:'How is this project tested?',
     
@@ -94,7 +93,7 @@ message:'Who are the contributers of this application?',
 
   //Question for issues
 {
-    name: 'Issues',
+    name: 'issues',
     type: 'input',
     message: 'What do I do if I have an issue?',
     

@@ -66,6 +66,7 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
 
+
   ## Installation
   ${data.installation}
   
@@ -82,20 +83,21 @@ function generateMarkdown(data) {
   ${data.usage}
   ${renderLicenseSection(data.license)}
 
-  ##license
-  ${data.license}
+  ## license
+  ${data.License}
 
-  ##Testing 
+  ## Tests
   ${data.testing}
 
-  ##Contributions
-  ${data.contributions}
+  ## Contributions
+  ${data.contributers}
   
-  ##information
+  ## Information
   ${data.information}
   
-  <a href='https://github.com/bai1eigh' ></a> //github 
-  <a href='mailto:bai1eigh@outlook.com' ></a> //email 
+  ### Reach me here: 
+  [${data.username}](https://github.com/${data.username})  
+  ${data.email};
   `;
 }
 
