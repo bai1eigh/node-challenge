@@ -1,38 +1,37 @@
-# node challenge
+# module-9-node-challenge
   
   ## Description
-  command-line application that accepts user input
+   command-line application that accepts user input
 
 
   ## Installation
-  git clone
+  - user will need to install npm using the command 'npm i inquirer', - invoke the generator by using "node 'file-name'"
   
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  
   - [Contributors](#contributors)
   - [Tests](#tests)
   - [Questions](#questions)
 
-## Usage
-  inline read me generator
+  ## Usage
+  Be able to generate a readme 
   ## License
 
 This project is licensed under the  License
 
   ## license
-  GNU AGPLv3
+  The Unlicense
 
   ## Tests
-  node.js
+  Non applicable
 
   ## Contributions
-  baileigh
+  Baileigh Brown
   
   ## Information
-  use the terminal, node 
+  Georgia Techs module 9 homework
   
   ### Reach me here: 
   [bai1eigh](https://github.com/bai1eigh)  
