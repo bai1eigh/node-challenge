@@ -81,9 +81,21 @@ function generateMarkdown(data) {
 ## Usage
   ${data.usage}
   ${renderLicenseSection(data.license)}
+
+  ##license
+  ${data.license}
+
+  ##Testing 
+  ${data.testing}
+
+  ##Contributions
+  ${data.contributions}
   
+  ##information
+  ${data.information}
   
   <a href='https://github.com/bai1eigh' ></a> //github 
+  <a href='mailto:bai1eigh@outlook.com' ></a> //email 
   `;
 }
 
