@@ -79,7 +79,7 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
 
-## Usage
+  ## Usage
   ${data.usage}
   ${renderLicenseSection(data.license)}
 
